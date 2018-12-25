@@ -3,7 +3,7 @@ layout: post
 title: Understanding the domain
 date: 2017-03-29
 ---
-# Understanding the domain
+# {{ page.title }}
 
 > Software becomes, what the *developers* understood...
 >...not what the *business people* meant. [@heimeshoff](https://twitter.com/heimeshoff)
