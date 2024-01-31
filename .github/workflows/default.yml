@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Site CI
 
 on:
   push:
@@ -7,18 +7,63 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+        build-dir: build
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker compose up jekyll-build
+      - name: Checkout the repository
+        uses: actions/checkout@v4
+
+      - name: Setup nodejs
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      - run: npm install
+      - run: npm install -g gulp
+
+      - name: Build assets artifact
+        run: docker compose up gulp-build
+
+      - name: Upload assets artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: assets
+          path: assets
+
+      - name: Build site artifact
+        run: |
+          docker compose up jekyll-build-prod
+          pwd
+          ls -la
+          ls -la _site
+
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: site
+          path: _site
   deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - uses: crazy-max/ghaction-github-pages@v4.0.0
-      with:
-        target_branch: master
-        build_dir: _site
-        fqdn: mintobit.com
-        jekyll: false
+      - name: Download site artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: site
+          path: ${{ needs.build.outputs.build-dir }}/
+
+      - name: Download assets artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: assets
+          path: ${{ needs.build.outputs.build-dir }}/assets
+ 
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4.0.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          build_dir: ${{ needs.build.outputs.build-dir }}
+          fqdn: mintobit.com
+          jekyll: false

@@ -20,13 +20,9 @@ linkedin_url: https://www.linkedin.com/in/mintobit/
 
 # Build Settings
 markdown: kramdown
-remote_theme: mintobit/jekyll-mintobit-theme
+theme: minima
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-paginate-v2
-  - jekyll-archives
-  - jekyll-sass-converter
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -71,28 +67,31 @@ pagination:
   # Without file extension
   indexpage: 'index'
 
+sass:
+  sass_dir: _disabled
+
 ############################################################
 # Site configuration for the Auto-Pages feature
 # The values here represent the defaults if nothing is set
-autopages:
-  # Site-wide kill switch, disable here and it doesn't run at all 
-  enabled: false
-  # Category pages, omit entire config element to disable
-  categories:
-    # Optional, the list of layouts that should be processed for every category found in the site
-    layouts:
-      - 'category.html'
-    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
-    title: ':cat'
-    # Optional, the permalink for the  pagination page (:cat is replaced), 
-    # the pagination permalink path is then appended to this permalink structure
-    permalink: '/category/:cat'
-    # Collection pages, omit to disable
-  collections:
-    layouts:
-      - 'category.html'
-    title: ' :coll' # :coll is replaced by the collection name
-    permalink: '/:coll/'
+#autopages:
+#  # Site-wide kill switch, disable here and it doesn't run at all
+#  enabled: false
+#  # Category pages, omit entire config element to disable
+#  categories:
+#    # Optional, the list of layouts that should be processed for every category found in the site
+#    layouts:
+#      - 'category.html'
+#    # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
+#    title: ':cat'
+#    # Optional, the permalink for the  pagination page (:cat is replaced),
+#    # the pagination permalink path is then appended to this permalink structure
+#    permalink: '/category/:cat'
+#    # Collection pages, omit to disable
+#  collections:
+#    layouts:
+#      - 'category.html'
+#    title: ' :coll' # :coll is replaced by the collection name
+#    permalink: '/:coll/'
   # Tag pages, omit to disable
 #  tags:
 #    layouts:
@@ -100,9 +99,9 @@ autopages:
 #    title: ':tag' # :tag is replaced by the tag name
 #    permalink: '/tag/:tag'
 
-tag_page_layout: category
-tag_page_dir: tag
-tag_permalink_style: pretty
+#tag_page_layout: category
+#tag_page_dir: tag
+#tag_permalink_style: pretty
 
 #jekyll-archives:
 #  enabled: all
@@ -116,11 +115,3 @@ tag_permalink_style: pretty
 #    output: true
 #    permalink: /authors/:path/
 
-feed:
-  collections:
-    posts:
-      path: "/index.xml"
-
-sass:
-  style: compressed
-  sourcemap: development

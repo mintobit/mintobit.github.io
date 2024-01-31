@@ -20,4 +20,5 @@ node_modules
 .tmp
 tmp
 
-_site
+_site/*
+!_site/.gitkeep

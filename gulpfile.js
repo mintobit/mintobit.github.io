@@ -43,9 +43,8 @@
 	Include Gulp & Plugins
 =============================
 */
-	var gulp 			= require('gulp'),
-
-		sass 			= require('gulp-sass'),
+	var gulp 	= require('gulp'),
+		sass 			= require('gulp-sass')(require('sass')),
 		cleanCSS 		= require('gulp-clean-css'),
 		autoprefixer 	= require('gulp-autoprefixer'),
 		concat 			= require('gulp-concat'),		
@@ -63,10 +62,6 @@
 		runSequence 	= require('run-sequence'),
 		inject 			= require('gulp-inject')
 //		fs 				= require('fs');
-		
-		sass.compiler = require('node-sass');
-			
-  
  
     gulp.task('clean-production', function() {
         return del('dist/**/**', {

@@ -1,27 +1,36 @@
 services:
+  gulp-build:
+    image: dockette/nodejs:v16
+    build:
+      context: .
+    working_dir: /app
+    volumes:
+      - .:/app:rw
+    command: npm exec -- gulp build
   jekyll-build:
     image: jekyll/builder:3.8.6
     build:
       context: .
     volumes:
-      - .:/srv/jekyll:Z
-    command: jekyll build
+      - .:/srv/jekyll:rw
+    command: jekyll build && rm -rf /srv/jekyll/_site/docker-compose.yaml /srv/jekyll/_site/package.json /srv/jekyll/_site/package-lock.json
     environment:
       JEKYLL_ENV: development
-  gulp-build:
-    image: driebit/node-gulp
-    mem_limit: 3g
+  jekyll-build-prod:
+    image: jekyll/builder:3.8.6
     build:
       context: .
     volumes:
-      - .:/app
-    command: gulp build
+      - .:/srv/jekyll:rw
+    command: jekyll build && rm -rf /srv/jekyll/_site/docker-compose.yaml /srv/jekyll/_site/package.json /srv/jekyll/_site/package-lock.json
+    environment:
+      JEKYLL_ENV: production
   jekyll-serve:
     image: jekyll/jekyll:3.8.6
     build:
       context: .
     volumes:
-      - .:/srv/jekyll:Z
+      - .:/srv/jekyll:r
     ports:
       - 4000:4000
     command: jekyll serve

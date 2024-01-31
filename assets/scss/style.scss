@@ -1548,7 +1548,8 @@ ul#results-container {
 			content: "-";
 			position: absolute;
 			right: -18px;
-			@include color($font-color4, 0.8) opacity: 0.2;
+			@include color($font-color4, 0.8);
+			opacity: 0.2;
 		}
 		&:first-child {
 			margin-left: 0;
@@ -1572,7 +1573,8 @@ ul#results-container {
 
 .copyright-text {
 	margin: 0;
-	@include color($font-color4, 0.5) padding-bottom: 40px;
+	@include color($font-color4, 0.5);
+	padding-bottom: 40px;
 	a {
 		@include color($font-color4, 0.9);
 		&:hover {
