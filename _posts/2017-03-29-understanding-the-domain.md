@@ -1,7 +1,12 @@
 ---
 layout: post
-title: Understanding the domain
+title: "Understanding the domain"
 date: 2017-03-29
+post_image: /assets/images/museums-victoria--7Xb4TmVTN8-unsplash.jpg
+categories: [posts]
+author: mintobit
+comments: false
+dark_header: false
 ---
 # {{ page.title }}
 

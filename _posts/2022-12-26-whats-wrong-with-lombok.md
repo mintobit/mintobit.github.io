@@ -1,7 +1,13 @@
 ---
 layout: post
-title: What's wrong with Lombok?
+title: "What's wrong with Lombok?"
 date: 2022-12-26
+post_image: /assets/images/elisa-ventur-bmJAXAz6ads-unsplash.jpg
+tags: []
+categories: [posts]
+author: mintobit
+comments: false
+dark_header: false
 ---
 # {{ page.title }}
 

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% include page_header.html %}
+<div class="blog-area">
+   {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+   {% for posts in filtered_posts %}
+   {% assign item = forloop.index | modulo: 2 %}
+   {% include post_card.html %}
+   {% endfor %}
+</div>
+
+{% if paginator.next_page %}
+<div class="pagination-area">
+   <div class="pagination-wrapper bg-color3 inner-spacing">
+      <div class="container">
+         <nav class="page-pagination text-center">
+            <button class="btn btn-light mb-2 w-100 loadmore-au">
+               Load More
+         </button>
+         </nav>
+      </div>
+   </div>
+</div>
+{% endif %}

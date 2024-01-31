@@ -1,0 +1,27 @@
+services:
+  jekyll-build:
+    image: jekyll/builder:3.8.6
+    build:
+      context: .
+    volumes:
+      - .:/srv/jekyll:Z
+    command: jekyll build
+    environment:
+      JEKYLL_ENV: development
+  gulp-build:
+    image: driebit/node-gulp
+    mem_limit: 3g
+    build:
+      context: .
+    volumes:
+      - .:/app
+    command: gulp build
+  jekyll-serve:
+    image: jekyll/jekyll:3.8.6
+    build:
+      context: .
+    volumes:
+      - .:/srv/jekyll:Z
+    ports:
+      - 4000:4000
+    command: jekyll serve
