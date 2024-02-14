@@ -58,7 +58,7 @@ jobs:
         with:
           name: assets
           path: ${{ needs.build.outputs.build-dir }}/assets
- 
+
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4.0.0
         env:
