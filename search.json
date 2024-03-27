@@ -1,0 +1,273 @@
+[
+  
+    {
+      "title"		: "What jam.dev founder learned about growing a startup",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2023/12/27/what-jam-dev-founder-learned-about-growing-a-startup.html",
+      "post_image"	: "/assets/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg",
+      "date"		: "2023-12-27 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Distributed transaction patterns for microservices compared",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2023/11/15/Distributed-transaction-patterns-for-microservices-compared.html",
+      "post_image"	: "/assets/images/jan-antonin-kolar-lRoX0shwjUQ-unsplash.jpg",
+      "date"		: "2023-11-15 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Improve readability with positive booleans",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2023/10/23/improve-readability-with-positive-booleans.html",
+      "post_image"	: "/assets/images/ximena-nahmias-xgodM0tqlTQ-unsplash.jpg",
+      "date"		: "2023-10-23 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "What&#39;s wrong with Lombok?",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2022/12/26/whats-wrong-with-lombok.html",
+      "post_image"	: "/assets/images/elisa-ventur-bmJAXAz6ads-unsplash.jpg",
+      "date"		: "2022-12-26 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Falsehoods about addresses",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2022/02/11/falsehoods-about-addresses.html",
+      "post_image"	: "/assets/images/jonathan-kemper-xOs8yCItUM0-unsplash.jpg",
+      "date"		: "2022-02-11 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Backpressure explained — the flow of data through software",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2019/04/06/back-pressure-explained.html",
+      "post_image"	: "/assets/images/justus-menke-YhezVj6sUl4-unsplash.jpg",
+      "date"		: "2019-04-06 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "The Future of Programming",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2018/12/31/the-future-of-programming.html",
+      "post_image"	: "/assets/images/drew-beamer-xU5Mqq0Chck-unsplash.jpg",
+      "date"		: "2018-12-31 22:59:37 -0600"
+    } ,
+  
+    {
+      "title"		: "OAuth 2.0 (without Signatures) is Bad for the Web",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2018/09/11/oauth-20-without-signatures-is-bad-for-the-web.html",
+      "post_image"	: "/assets/images/george-prentzas-SRFG7iwktDk-unsplash.jpg",
+      "date"		: "2018-09-11 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Doctrine best practices",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2018/08/27/doctrine-best-practices.html",
+      "post_image"	: "/assets/images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg",
+      "date"		: "2018-08-27 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Avoiding microservice megadisasters",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2018/07/04/avoiding-microservice-megadisasters.html",
+      "post_image"	: "/assets/images/martijn-baudoin-4h0HqC3K4-c-unsplash.jpg",
+      "date"		: "2018-07-04 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Agile is Dead. Pragmatic Dave Thomas",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2018/03/12/agile-is-dead-pragmatic-dave-thomas.html",
+      "post_image"	: "/assets/images/sigmund-By-tZImt0Ms-unsplash.jpg",
+      "date"		: "2018-03-12 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Solving conflicts in composer.lock",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2018/01/15/solving-conflicts-in-composer-lock.html",
+      "post_image"	: "/assets/images/chris-sabor-qlaot0VrqTM-unsplash.jpg",
+      "date"		: "2018-01-15 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Podcast: Worth Doing. Marco Pivetta",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2018/01/04/podcast-worth-doing-marco-pivetta.html",
+      "post_image"	: "/assets/images/jonathan-velasquez-c1ZN57GfDB0-unsplash.jpg",
+      "date"		: "2018-01-04 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/11/20/ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together.html",
+      "post_image"	: "/assets/images/ivana-cajina-KGzXJB6zneM-unsplash.jpg",
+      "date"		: "2017-11-20 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "50,000 Orange Stickies Later",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/11/16/50000-orange-stickies-later.html",
+      "post_image"	: "/assets/images/jason-goodman-Oalh2MojUuk-unsplash.jpg",
+      "date"		: "2017-11-16 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Refactoring to Deeper Insight: Lessons Learned Applying DDD to Large Scale",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/11/13/refactoring-to-deeper-insight-lessons-learned-applying-ddd-to-large-scale.html",
+      "post_image"	: "/assets/images/johannes-plenio-voQ97kezCx0-unsplash.jpg",
+      "date"		: "2017-11-13 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "The continuous PHP Pipeline",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/11/07/the-continuous-php-pipeline.html",
+      "post_image"	: "/assets/images/the-blowup-qafbp6O0Rr0-unsplash.jpg",
+      "date"		: "2017-11-07 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Emergent Boundaries",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/11/06/emergent-boundaries.html",
+      "post_image"	: "/assets/images/jli4zjkbdkpx.jpg",
+      "date"		: "2017-11-06 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "The Little Mocker",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/06/18/the-little-mocker.html",
+      "post_image"	: "/assets/images/new-ice-test-cell_1.jpg",
+      "date"		: "2017-06-18 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "The PHP 7 Story, and beyond",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/06/16/the-php-7-story-and-beyond.html",
+      "post_image"	: "/assets/images/markus-winkler-aId-xYRTlEc-unsplash.jpg",
+      "date"		: "2017-06-16 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Type Safety Roundtable",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/06/09/type-safety-roundtable.html",
+      "post_image"	: "/assets/images/glenn-hansen-P22M-KeCs6Y-unsplash.jpg",
+      "date"		: "2017-06-09 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Extremely Defensive PHP",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/06/07/extremely-defensive-php.html",
+      "post_image"	: "/assets/images/svklimkin-Md449nTVCXk-unsplash.jpg",
+      "date"		: "2017-06-07 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Domain Driven Design: The Good Parts",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/05/19/domain-driven-design-the-good-parts.html",
+      "post_image"	: "/assets/images/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg",
+      "date"		: "2017-05-19 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "The Past and Future of Domain-Driven Design",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/05/12/the-past-and-future-of-domain-driven-design.html",
+      "post_image"	: "/assets/images/natalia-y-f5xddISq428-unsplash.jpg",
+      "date"		: "2017-05-12 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/05/12/a-curated-list-of-ddd-cqrs-event-sourcing-storming-resources.html",
+      "post_image"	: "/assets/images/alexandre-perotto-zCevd81eJDU-unsplash.jpg",
+      "date"		: "2017-05-12 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Understanding the domain",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/03/29/understanding-the-domain.html",
+      "post_image"	: "/assets/images/museums-victoria--7Xb4TmVTN8-unsplash.jpg",
+      "date"		: "2017-03-29 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"		: "Real work",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2017/01/05/real-work.html",
+      "post_image"	: "/assets/images/jess-bailey-q10VITrVYUM-unsplash.jpg",
+      "date"		: "2017-01-05 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Unbreakable Domain Models",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2016/12/24/unbreakable-domain-models.html",
+      "post_image"	: "/assets/images/osama-elsayed-vqRMXgVtGXM-unsplash.jpg",
+      "date"		: "2016-12-24 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Extract till you drop",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2016/12/24/extract-till-you-drop.html",
+      "post_image"	: "/assets/images/scott-webb--udZnjsCzsE-unsplash.jpg",
+      "date"		: "2016-12-24 00:00:00 -0600"
+    } ,
+  
+    {
+      "title"		: "Decoupling the Model from the Framework",
+      "category"	: "",
+      "tags"		: "",
+      "url"			: "/posts/2016/12/24/decoupling-the-model-from-the-framework.html",
+      "post_image"	: "/assets/images/elimende-inagella-YTKh06aL7to-unsplash.jpg",
+      "date"		: "2016-12-24 00:00:00 -0600"
+    } 
+  
+]
