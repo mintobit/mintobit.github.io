@@ -73,6 +73,15 @@
       <link rel="stylesheet" href="/assets/css/fix.css">
       <!-- endgulp -->
       <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-X963WJGXE9"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+
+         gtag('config', 'G-X963WJGXE9');
+      </script>
    </head>
    <body class="{% if page.layout == 'post' %} post-template {% endif %} {% if page.url == '/index.html' %} home-template {% endif %} {% if page.layout == 'tag_page' %} tag-template {% endif %} {% if page.parmalink %} page-template {% endif %}">
       <!-- Preloader Start -->
